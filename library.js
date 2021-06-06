@@ -1,4 +1,5 @@
 const varToString = (varObj) => Object.keys(varObj)[0];
+var we_text;
 
 var getUrlParameter = function getUrlParameter(sParam) {
   var sPageURL = window.location.search.substring(1),
